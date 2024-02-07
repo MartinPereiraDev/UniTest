@@ -1,4 +1,4 @@
-from add  import sum, rest
+from UniTest.Functions.add  import sum, rest
 
 
 # function test sum() 
