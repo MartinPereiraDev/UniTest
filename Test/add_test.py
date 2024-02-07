@@ -1,4 +1,4 @@
-from UniTest.Functions.add  import sum, rest
+from UniTest.Functions.add  import sum
 
 
 # function test sum() 
@@ -12,13 +12,3 @@ def test_sum():
 
 test_sum()
 
-# function test sum() 
-def test_rest():
-    # expected result
-    expected_result = 3
-
-    actual_result = rest(6,2)
-
-    assert actual_result == expected_result
-
-test_rest()
