@@ -5,9 +5,15 @@ def sum(a,b):
 print(sum(1,2))
 
 
-# function add 2 numbers
-def rest(a,b):
-    return a - b
+# test sum() 
+def test_sum():
+    # expected result
+    expected_result = 3
 
-print(rest(5,2))
+    actual_result = sum(1,2)
+
+    assert actual_result == expected_result
+    
+test_sum()
+
 
